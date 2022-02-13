@@ -34,11 +34,6 @@ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 roslaunch obstacle_avoidance avoid_obstacle.launch
 ```
-3. Launch TurtleBot3 simulation
-```
-export TURTLEBOT3_MODEL=burger
-roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
-```
 
 ## Note
 This is implemented on Ubuntu 20.04.3 LTS
