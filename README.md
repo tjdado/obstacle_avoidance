@@ -1,5 +1,5 @@
-# obstacle_avoidance
-A simple obstacle avoidance ROS project using Turtlebot3 and Gazebo
+# Turtlebot3 Obstacle Avoidance ROS Project
+A simple obstacle avoidance ROS project using Turtlebot3 and Gazebo.
 
 ## Problem:
 Use ROS, connected with Gazebo of Turtlebot3, make a controlling program which keeps moving avoiding obstacles in the standard world set.
@@ -17,9 +17,9 @@ Under conditions of:
 - ROS Noetic
 
 ## Installation
-1. Copy the attached package (obstacle_avoidance) folder to ~/catkin_ws/src folder
-2. Build.
 ```
+cd ~/catkin_ws/src/
+git clone https://github.com/tjdado/obstacle_avoidance.git
 cd ~/catkin_ws/
 catkin_make
 ```
@@ -30,9 +30,9 @@ catkin_make
 export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
-2. In a separate terminal window, run obtacle avoidance program
+2. In a separate terminal window, launch obtacle avoidance program
 ```
-rosrun obstacle_avoidance avoid_obstacle.py
+roslaunch obstacle_avoidance avoid_obstacle.launch
 ```
 3. Launch TurtleBot3 simulation
 ```
